@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ICTA13580080.StackPage"
+    BackgroundColor="Olive">
+    <ScrollView
+        Orientation="Vertical"
+        >
+        <StackLayout
+            Orientation="Vertical"
+            BackgroundColor="Green">
+            <Button
+                Text="Button"
+                BackgroundColor="Red"
+                VerticalOptions="Fill" />
+            <Button
+                Text="Button"
+                BackgroundColor="Fuchsia" />
+            <Button
+                Text="Button"
+                BackgroundColor="Yellow" />
+            <ScrollView
+                Orientation="Horizontal">
+                <StackLayout
+                    Orientation="Horizontal"
+                    BackgroundColor="White"
+                    HeightRequest="150">
+                    <Button
+                        Text="Button"
+                        BackgroundColor="Olive"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="Blue"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="Purple"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="Black"
+                        WidthRequest="100" />
+                </StackLayout>
+            </ScrollView>
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+            <Entry
+                Placeholder="Good Luckkkkkkkkkkkkkkkkkkkkkkkkkkk"
+                HeightRequest="50" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

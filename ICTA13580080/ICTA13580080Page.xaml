@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ICTA13580080"
+    x:Class="ICTA13580080.ICTA13580080Page"
+    BackgroundColor="Olive"
+    Padding="20">
+    <StackLayout
+        BackgroundColor="Yellow"
+        Margin="5">
+        <Label
+            Text="Helloooooooooo Worlddddddddddd"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill"
+            BackgroundColor="Fuchsia"
+            VerticalTextAlignment="Center"
+            FontSize="20"
+            LineBreakMode="HeadTruncation"
+            x:Name="firstNameLabel" />
+        <Label
+            Text="Oui Siriphan"
+            BackgroundColor="Purple"
+            TextColor="White"
+            HorizontalOptions="Fill"
+            VerticalTextAlignment="Center"
+            VerticalOptions="Fill"
+            x:Name="lastNameLabel" />
+        <Entry
+            Placeholder="Input text here"
+            Keyboard="Text"
+            x:Name="firstNameEntry" />
+        <Button
+            Text="OK"
+            BackgroundColor="Silver"
+            x:Name="okButton" />
+        <DatePicker />
+        <TimePicker />
+        <Picker
+            x:Name="genderPicker"
+            Title="กรุณาเลือกเพศ" />
+        <Label
+            x:Name="valueLabel" />
+        <Slider
+            x:Name="mySlider"
+            Maximum="100"
+            Minimum="0"
+            Value="50" />
+        <Stepper
+            x:Name="myStepper"
+            Maximum="10"
+            Minimum="0"
+            Value="0"
+            Increment="1" />
+        <Switch
+            IsEnabled="true" />
+        <Image
+            Source="bearbrick.jpg"
+            HeightRequest="100" />
+        <WebView
+            Source="https://www.youtube.com/"
+            HeightRequest="150" />
+    </StackLayout>
+</ContentPage>
